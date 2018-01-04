@@ -28,7 +28,9 @@
                 @foreach ($Mahasiswa as $DataMahasiswa)
                   <tr>
                     <td>{{$no+=1}}</td>
-                    <td>{{$DataMahasiswa->npm}}</td>
+                    <td>
+                      <img src="/img/user/{{$DataMahasiswa->foto}}" style="width:25px; border-radius:50%; border: solid 2px white;">
+                      {{$DataMahasiswa->npm}}</td>
                     <td>{{$DataMahasiswa->nama}}</td>
                     <td>{{$DataMahasiswa->Jurusan->jurusan}}</td>
                     <td>{{$DataMahasiswa->status}}</td>
