@@ -18,7 +18,7 @@ Package Yang Dibutuhkan
     Composer Update
   ```
   ```
-    php artisan generate:key
+    php artisan key:generate
   ```
   ```
     php artisan migrate
