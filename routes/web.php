@@ -11,6 +11,13 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
+Route::GET('/', 'MahasiswaController@Index');
+Route::GET('/add-data', 'MahasiswaController@AddData');
+Route::POST('/add-data', 'MahasiswaController@storeAddData');
+Route::GET('/{id}/edit', 'MahasiswaController@EditData');
+Route::POST('/{id}/edit', 'MahasiswaController@storeEditData');
+Route::GET('/{id}/delete', 'MahasiswaController@DeleteData');
