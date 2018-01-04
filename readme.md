@@ -3,7 +3,6 @@
 ## Yang Dibutuhkan
 
 ```
-Package Yang Dibutuhkan
 
 - Laravel Versi 5.5.
 - PHP Versi 7.
@@ -22,4 +21,7 @@ Package Yang Dibutuhkan
   ```
   ```
     php artisan migrate
+  ```
+  ```
+    php artisan db:seed
   ```
