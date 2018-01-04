@@ -23,6 +23,3 @@ Package Yang Dibutuhkan
   ```
     php artisan migrate
   ```
-
-
-Laravel is accessible, yet powerful, providing tools needed for large, robust applications.
