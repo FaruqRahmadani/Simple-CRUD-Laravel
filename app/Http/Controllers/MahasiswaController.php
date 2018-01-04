@@ -36,6 +36,7 @@ class MahasiswaController extends Controller
         $FotoExt = $request->Foto->getClientOriginalExtension();
         $FotoName = Crypt::encryptString($request->NPM).'.'.$FotoExt;
         $request->Foto->move(public_path('/img/user'), $FotoName);
+        $Mahasiswa->foto = $FotoName;
       }
 
       $Mahasiswa->save();
@@ -74,6 +75,7 @@ class MahasiswaController extends Controller
         $FotoExt = $request->Foto->getClientOriginalExtension();
         $FotoName = Crypt::encryptString($request->NPM).'.'.$FotoExt;
         $request->Foto->move(public_path('/img/user'), $FotoName);
+        $Mahasiswa->foto = $FotoName;
       }
 
       $Mahasiswa->save();
