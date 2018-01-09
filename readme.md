@@ -5,6 +5,7 @@
 ```
 
 - Laravel Versi 5.5.
+- Mysql.
 - PHP Versi 7.
 - Package : laravelcollective/html.
 
