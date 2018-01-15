@@ -2,14 +2,14 @@
 
 ## Yang Dibutuhkan
 
-```
+
 
 - Laravel Versi 5.5.
 - Mysql.
 - PHP Versi 7.
 - Package : laravelcollective/html.
 
-```
+
 
 ## Cara Menggunakan
 
