@@ -38,3 +38,8 @@
   ```
     php artisan db:seed
   ```
+  
+  - Untuk menjalankan
+  ```
+    php artisan serve
+  ```
