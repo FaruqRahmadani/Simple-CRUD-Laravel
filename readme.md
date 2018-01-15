@@ -13,8 +13,6 @@
 
 ## Cara Menggunakan
 
-  Gunakan Perintah
-
   - Untuk mengingstall package apa saja yang diperlukan pada project ini
   ```
     Composer Update
